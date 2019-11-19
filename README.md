@@ -37,8 +37,8 @@ console.log(test);
 
 | **Function** | **Description** |
 | --- | --- |
-| `ObTest(object, name): Boolean` | Checks that the ``object`` property ``name`` exists and is an array. |
-| `ObGet(object, name): Array` | Gets the ``name`` property of the ``object`` or creates an empty array and returns it. |
+| `OpTest(object, name): Boolean` | Checks that the ``object`` property ``name`` exists and is an array. |
+| `OpGet(object, name, destroy = false): Array` | Gets the ``name`` property of the ``object`` or creates an empty array and returns it. |
 | `OpDestroy(object, name): object` | Deletes the property ``name`` from ``object``. |
 | `OpIncludes(object, name, value): Boolean` | Checks that the ``value`` is included in the array. |
 | `OpAdd(object, name, value): object` | Adds (pushes) the new ``value`` element to the array. |
