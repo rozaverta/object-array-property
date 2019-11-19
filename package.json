@@ -1,7 +1,7 @@
 {
   "name": "object-array-property",
   "description": "Object helper. Property array manipulation.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "module": "esm/object-array-property.js",
   "directories": {},
